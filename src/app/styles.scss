@@ -1,0 +1,18 @@
+.app {
+    &_wrapper {
+        height: 100%;
+        width: 100%;
+    }
+
+    &_header {
+        height: 125px;
+        width: 100%;
+    }
+
+    &_body {
+        height: calc(100% - 125px);
+        width: 100%;
+
+        position: relative;
+    }
+}
